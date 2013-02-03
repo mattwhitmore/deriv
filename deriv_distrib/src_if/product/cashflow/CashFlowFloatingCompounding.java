@@ -2,7 +2,6 @@ package product.cashflow;
 
 import java.util.Vector;
 
-import product.cashflow.period.FloatingCompoundingPeriod;
 import product.conventions.CompoundingMethodology;
 
 

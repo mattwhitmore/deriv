@@ -2,9 +2,9 @@ package product.conventions;
 
 import java.util.Vector;
 
-import product.cashflow.period.FloatingCompoundingPeriod;
+import product.cashflow.FloatingCompoundingPeriod;
 
 
-public interface CompoundingMethodology extends EnumerableConvention {
+public interface CompoundingMethodology extends Convention {
 	public double getAmount(Vector<FloatingCompoundingPeriod> periods);	
 }

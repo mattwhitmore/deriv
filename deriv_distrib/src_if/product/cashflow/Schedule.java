@@ -1,4 +1,5 @@
-package product.cashflow.period;
+package product.cashflow;
+
 
 public interface Schedule<T> {
 	public int size();

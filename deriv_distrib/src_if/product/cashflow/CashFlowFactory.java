@@ -3,7 +3,7 @@ package product.cashflow;
 import java.util.Date;
 import java.util.Vector;
 
-import product.cashflow.period.Period;
+import product.Currency;
 import product.conventions.AveragingMethodology;
 import product.conventions.CompoundingMethodology;
 import product.conventions.DateRoll;
@@ -11,7 +11,6 @@ import product.conventions.DayCount;
 import product.conventions.Frequency;
 import product.conventions.HolidayCalendar;
 import product.conventions.PeriodRule;
-import product.currency.Currency;
 
 public interface CashFlowFactory {
 	public CashFlow buildPayment(Currency currency, Date paymentDate, double amount);

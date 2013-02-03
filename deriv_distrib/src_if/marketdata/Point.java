@@ -1,6 +1,5 @@
-package marketdata.point;
+package marketdata;
 
-import marketdata.MarketData;
 
 public interface Point extends MarketData {
 	public double getValue();

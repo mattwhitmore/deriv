@@ -1,9 +1,8 @@
-package marketdata.curve;
+package marketdata;
 
 import java.util.Date;
 import java.util.Vector;
 
-import marketdata.MarketData;
 
 public interface Curve extends MarketData {
 	public Date getDate();

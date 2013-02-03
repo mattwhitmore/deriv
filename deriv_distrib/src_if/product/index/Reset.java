@@ -2,7 +2,7 @@ package product.index;
 
 import java.util.Date;
 
-import product.conventions.EnumerableConvention;
+import product.conventions.Convention;
 
 public interface Reset  {
 	public Index getIndex();

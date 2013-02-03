@@ -1,10 +1,12 @@
 package pricing;
 
+import java.util.Date;
+import java.util.HashMap;
 import java.util.Vector;
 
-import pricing.dependency.Dependency;
 import product.Product;
 
 public interface Pricer<T extends Product> {
-	public Vector<Dependency> getDependencies();
+	public Vector<RequiredMarketData> getDependencies();
+	public HashMap<String,PricingOutput> price(Date date, Product product);
 }

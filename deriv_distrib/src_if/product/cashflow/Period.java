@@ -1,4 +1,4 @@
-package product.cashflow.period;
+package product.cashflow;
 
 import java.util.Date;
 
