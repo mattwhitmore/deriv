@@ -2,7 +2,8 @@ package product.cashflow;
 
 import java.util.Date;
 
-import product.Currency;
+import core.Currency;
+
 
 public interface CashFlow
 {

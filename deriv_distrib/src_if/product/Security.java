@@ -1,6 +1,7 @@
 package product;
 
+import core.LegalEntity;
 
 public interface Security extends Product {
-	public Counterparty getIssuer();
+	public LegalEntity getIssuer();
 }

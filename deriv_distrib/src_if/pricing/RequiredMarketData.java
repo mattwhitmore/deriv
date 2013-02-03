@@ -1,6 +1,6 @@
 package pricing;
 
-import product.Currency;
+import core.Currency;
 import product.index.Index;
 
 public interface RequiredMarketData {

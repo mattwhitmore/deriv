@@ -3,7 +3,8 @@ package product.cashflow;
 import java.util.Date;
 import java.util.Vector;
 
-import product.Currency;
+import core.Currency;
+
 import product.conventions.AveragingMethodology;
 import product.conventions.CompoundingMethodology;
 import product.conventions.DateRoll;
